@@ -2,7 +2,7 @@
 
 - 목표 화면
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0e651e82-a3e8-46f0-be47-f45b51b6366b/Untitled.png)
+![Untitled](https://www.notion.so/25f9c54aae344d32b4155afcf3e49b1b?pvs=4#6a84cbce7d234ff1a372a0061bef14f5)
 
 ### 기능 목록
 
