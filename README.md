@@ -34,7 +34,7 @@
 
 ### 회원 엔티티 분석
 
-![jpa3](https://user-images.githubusercontent.com/81403633/222954640-0d4eb396-777c-4025-bd96-a2ddaade7755.png)
+![jpa3](https://user-images.githubusercontent.com/81403633/222954670-6da40199-0d36-4fd0-abb6-e57617bba49c.png)
 
 - **회원(Member)**: 이름과 임베디드 타입인 주소( Address ), 그리고 주문( orders ) 리스트를 가진다.
 - **주문(Order)**: 한 번 주문시 여러 상품을 주문할 수 있으므로 주문과 주문상품( OrderItem )은 일대다 관계다. 주문은 상품을 주문한 회원과 배송 정보, 주문 날짜, 주문 상태( status )를 가지고 있다. 주문
@@ -47,7 +47,7 @@
 
 ### 회원 테이블 분석
 
-![jpa4](https://user-images.githubusercontent.com/81403633/222954670-6da40199-0d36-4fd0-abb6-e57617bba49c.png)
+![jpa4](https://user-images.githubusercontent.com/81403633/222954640-0d4eb396-777c-4025-bd96-a2ddaade7755.png)
 
 - **MEMBER**: 회원 엔티티의 Address 임베디드 타입 정보가 회원 테이블에 그대로 들어갔다. 이것은 DELIVERY 테이블도 마찬가지다.
 - **ITEM**: 앨범, 도서, 영화 타입을 통합해서 하나의 테이블로 만들었다. DTYPE 컬럼으로 타입을 구분한다.
