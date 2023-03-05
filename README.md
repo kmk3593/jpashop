@@ -2,7 +2,7 @@
 
 - 목표 화면
 
-![Untitled](https://www.notion.so/25f9c54aae344d32b4155afcf3e49b1b?pvs=4#6a84cbce7d234ff1a372a0061bef14f5)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0e651e82-a3e8-46f0-be47-f45b51b6366b%2FUntitled.png?id=6a84cbce-7d23-4ff1-a372-a0061bef14f5&table=block&spaceId=befcc137-64b8-46a3-9a3a-b828ca3bb79d&width=1920&userId=9475a5f9-e0e8-492c-ad74-8293b6ba474a&cache=v2)
 
 ### 기능 목록
 
