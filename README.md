@@ -24,7 +24,7 @@
 
 ### 설계
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ef5cfca-cb57-4d1a-871a-557c972c17bd/Untitled.png)
+![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0e651e82-a3e8-46f0-be47-f45b51b6366b%2FUntitled.png?id=6a84cbce-7d23-4ff1-a372-a0061bef14f5&table=block&spaceId=befcc137-64b8-46a3-9a3a-b828ca3bb79d&width=1920&userId=9475a5f9-e0e8-492c-ad74-8293b6ba474a&cache=v2)
 
 - **회원, 주문, 상품의 관계**: 회원은 여러 상품을 주문할 수 있다. 그리고 한 번 주문할 때 여러 상품을 선택할 수 있으므로 주문과 상품은 다대다 관계다. 하지만 이런 다대다 관계는 관계형 데이터베이스는 물론이고 엔티티에서도 거의 사용하지 않는다. 따라서 그림처럼 주문상품이라는 엔티티를 추가해서 다대다 관계를 일대다, 다대일 관계로 풀어냈다.
 - **상품 분류**: 상품은 도서, 음반, 영화로 구분되는데 상품이라는 공통 속성을 사용하므로 상속 구조로 표현했다.
