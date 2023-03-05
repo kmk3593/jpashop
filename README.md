@@ -24,7 +24,7 @@
 
 ### 설계
 
-![Un](https://user-images.githubusercontent.com/81403633/222954311-45eb0217-974f-439a-9898-280cbe0078eb.png)
+![jpa2](https://user-images.githubusercontent.com/81403633/222954573-e5802968-1ae2-4846-8b01-8247401c1ddf.png)
 
 - **회원, 주문, 상품의 관계**: 회원은 여러 상품을 주문할 수 있다. 그리고 한 번 주문할 때 여러 상품을 선택할 수 있으므로 주문과 상품은 다대다 관계다. 하지만 이런 다대다 관계는 관계형 데이터베이스는 물론이고 엔티티에서도 거의 사용하지 않는다. 따라서 그림처럼 주문상품이라는 엔티티를 추가해서 다대다 관계를 일대다, 다대일 관계로 풀어냈다.
 - **상품 분류**: 상품은 도서, 음반, 영화로 구분되는데 상품이라는 공통 속성을 사용하므로 상속 구조로 표현했다.
@@ -34,7 +34,7 @@
 
 ### 회원 엔티티 분석
 
-![Untitled](https://www.notion.so/25f9c54aae344d32b4155afcf3e49b1b?pvs=4#b111f8192bea41a0ab1a03f0b00cc647)
+![jpa3](https://user-images.githubusercontent.com/81403633/222954640-0d4eb396-777c-4025-bd96-a2ddaade7755.png)
 
 - **회원(Member)**: 이름과 임베디드 타입인 주소( Address ), 그리고 주문( orders ) 리스트를 가진다.
 - **주문(Order)**: 한 번 주문시 여러 상품을 주문할 수 있으므로 주문과 주문상품( OrderItem )은 일대다 관계다. 주문은 상품을 주문한 회원과 배송 정보, 주문 날짜, 주문 상태( status )를 가지고 있다. 주문
@@ -47,7 +47,7 @@
 
 ### 회원 테이블 분석
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/408cb489-e51b-4924-a883-9c92ef68d4f8/Untitled.png)
+![jpa4](https://user-images.githubusercontent.com/81403633/222954670-6da40199-0d36-4fd0-abb6-e57617bba49c.png)
 
 - **MEMBER**: 회원 엔티티의 Address 임베디드 타입 정보가 회원 테이블에 그대로 들어갔다. 이것은 DELIVERY 테이블도 마찬가지다.
 - **ITEM**: 앨범, 도서, 영화 타입을 통합해서 하나의 테이블로 만들었다. DTYPE 컬럼으로 타입을 구분한다.
