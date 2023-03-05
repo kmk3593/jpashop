@@ -1,8 +1,8 @@
-[실전! 스프링부트와 JPA 활용1]
+인프런 강의 : [실전! 스프링부트와 JPA 활용1]
 
 - 목표 화면
 
-![Untitled](/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0e651e82-a3e8-46f0-be47-f45b51b6366b%2FUntitled.png?id=6a84cbce-7d23-4ff1-a372-a0061bef14f5&table=block&spaceId=befcc137-64b8-46a3-9a3a-b828ca3bb79d&width=810&userId=9475a5f9-e0e8-492c-ad74-8293b6ba474a&cache=v2)
+![Untitled](https://user-images.githubusercontent.com/81403633/222954311-45eb0217-974f-439a-9898-280cbe0078eb.png)
 
 ### 기능 목록
 
@@ -34,7 +34,7 @@
 
 ### 회원 엔티티 분석
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce0c6f7d-5bac-4734-bc46-dd53c643fb51/Untitled.png)
+![Untitled](https://www.notion.so/25f9c54aae344d32b4155afcf3e49b1b?pvs=4#b111f8192bea41a0ab1a03f0b00cc647)
 
 - **회원(Member)**: 이름과 임베디드 타입인 주소( Address ), 그리고 주문( orders ) 리스트를 가진다.
 - **주문(Order)**: 한 번 주문시 여러 상품을 주문할 수 있으므로 주문과 주문상품( OrderItem )은 일대다 관계다. 주문은 상품을 주문한 회원과 배송 정보, 주문 날짜, 주문 상태( status )를 가지고 있다. 주문
